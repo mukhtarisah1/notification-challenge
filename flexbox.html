@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media(min-width:480px){
+            .container{
+            display: flex;
+            align-items: center;
+            /* align-items: start;
+            align-items: end;
+            flex-direction: column; */
+            
+        }
+        .container-2{
+            margin-top: 30px;
+            display: flex;
+            /* justify-content: center;
+            justify-content: start;
+            justify-content: end;
+            justify-content: space-around;
+            justify-content: space-evenly; */
+            justify-content: space-between;
+           
+        }
+        }
+        
+        .container div, .container-2 div{
+            border: solid 1px;
+            padding: 10px;
+        }
+        .div-1{
+            flex: 1;
+            order: 2;
+        }
+        .div-2{
+            flex: 1;
+            order: 1;
+        }
+        .div-3{
+            flex: 1;
+            order: 3;
+        }
+        .container-2-box{
+            flex-basis: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div-1">
+            <h1>Box 1</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, vel!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consectetur 
+            voluptates laudantium illo!
+        </div>
+        <div class="div-2">
+            <h1>Box 2</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quasi cumque ullam ipsam.
+        </div>
+        <div class="div-3">
+            <h1>Box 3</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores at excepturi molestias cum non?
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="container-2-box">
+            <h3>box four</h3>
+            Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Vero blanditiis nisi voluptatum odit, molestiae placeat labore animi illo dolores
+             distinctio enim? Optio quis sapiente distinctio minima unde iste fuga accusamus.
+        </div>
+        <div class="container-2-box">
+            <h3>box five</h3>
+            Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Vero blanditiis nisi voluptatum odit, molestiae placeat labore animi illo dolores
+             distinctio enim? Optio quis sapiente distinctio minima unde iste fuga accusamus.
+        </div>
+        <div class="container-2-box">
+            <h3>box six</h3>
+            Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Vero blanditiis nisi voluptatum odit, molestiae placeat labore animi illo dolores
+             distinctio enim? Optio quis sapiente distinctio minima unde iste fuga accusamus.
+        </div>
+    </div>
+    
+</body>
+</html>
